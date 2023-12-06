@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("website.jpg");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            min-height: 100px;
+        }
+
+ul {
+        float: right;
+        list-style-type: disc;
+        margin-top: 30px;
+        min-height: 400px;
+        margin-right: 40px;
+        font-size: 16px;
+        
+
+}
+
+ul li {
+        display: inline-block; /* the writtings comes is serially 1 line from left to right */
+    
+
+    }
+
+ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-style: italic;
+            font-weight: bold;
+            padding: 5px 20px;
+            border: 1px solid transparent;     /*positioning text */
+            transition: 0.5 ease;
+            border: solid rgb(0, 128, 128) 3px;
+            
+            
+
+}
+
+ul li a:hover {                                 /*for highlighting the bar when the mouse is taken on top of it */
+                background-color: #ffffff88;
+                color: #000;
+
+}
+
+ul li.first a {
+                background-color: rgb(250, 246, 247);
+                color: #000;
+                
+}
+
+.logo img{
+            float: left;
+            width: 150px;
+            height: auto;
+}
+
+
+.main {
+        max-width: 1200px;
+        margin: auto;
+}
+
+.secondTitle {
+            position: absolute;
+            top: 46%;
+            left: 50%;
+            transform: translate(-50% ,-50%);
+}
+
+.secondTitle h1 {
+            color: #fff;
+            font-size: 50px;
+}
+
+.thirdButton {
+                position: absolute;
+                top: 54%;
+                left: 50%;
+                transform: translate(-50% ,-50%);  
+}
+
+.btn {
+        border: 1px solid #fff;
+        padding: 5px 20px;
+        color: #fff;
+        transition: 0.5 ease;
+        font-size: 18px;
+        text-decoration: none;
+}
+
+.btn:hover {
+              background-color: azure;
+              color: #000;  
+}
+
+
+.Sub-Menu {
+            display: none;
+            top: 6%;
+            position: relative;
+}
+
+.Sub-Menu ul {
+                position: absolute;
+}
+
+.main ul li:hover .Sub-Menu{
+                                display: block;
+                                position: absolute;
+                                background-color: rgb(0, 45, 117);
+                                margin-top: 12px;
+                                margin-left: -8px;
+}
+
+
+.main ul li:hover .Sub-Menu ul{
+                                display: block;
+                                margin: 6px;
+
+}
+
+.main ul li:hover .Sub-Menu ul li{
+                                    width: 75px;
+                                    padding: 5px ;
+                                    border-bottom:   1px #fff;
+                                    background: transparent;
+                                    transition: 0.4 ease;
+                                    text-align: left;
+                                    border-radius: 0px;
+
+}
+
